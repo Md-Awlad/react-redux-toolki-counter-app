@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import CounterView from "./app/features/counter/CounterView";
 import PostView from "./app/features/posts/PostView";
