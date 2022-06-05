@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+section{
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 5rem;
+}
+article{
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+@media(min-width:600px){
+  section{
+    grid-template-columns: auto auto;
+  }
+}
